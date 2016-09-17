@@ -1,0 +1,13 @@
+/**
+ * @author anantharaju
+ * If a class have multiple methods by same name but different parameters, it is known as Method Overloading.
+ */
+package oopmoPackage;
+
+public class MethodOverloading 
+{
+	public static void main(String[] args) 
+	{
+		
+	}
+}

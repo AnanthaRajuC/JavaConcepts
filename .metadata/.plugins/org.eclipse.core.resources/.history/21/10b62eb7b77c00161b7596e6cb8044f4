@@ -1,0 +1,29 @@
+/**
+ * @author anantharaju
+ */
+package oopocsrPackage;
+
+public class StudentRecord 
+{
+	int rollNo;
+	String name;
+	
+	public static void main(String[] args) 
+	{
+		StudentRecord sr1 = new StudentRecord();
+		StudentRecord sr2 = new StudentRecord();
+		
+
+	}
+	
+	void insertRecord(int rn, String n)
+	{
+		
+	}
+	
+	void displayRecord()
+	{
+		System.out.println("rollNo: "+ rollNo);
+		System.out.println("name: "+ name);
+	}
+}

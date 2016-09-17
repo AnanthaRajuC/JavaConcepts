@@ -1,0 +1,16 @@
+/**
+ * anantharaju
+ * Used to break loop or switch statement.
+ * It breaks the current flow of the program at specified condition. 
+ * In case of inner loop, it breaks only inner loop.
+ */
+package bsPackage;
+
+public class BreakStatement 
+{
+
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+	}
+}

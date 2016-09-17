@@ -1,0 +1,12 @@
+/**
+ * @author anantharaju
+ */
+package vtPackage;
+
+public class VariableTypes 
+{
+	public static void main(String[] args) 
+	{
+
+	}
+}

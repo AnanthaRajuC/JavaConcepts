@@ -1,0 +1,14 @@
+/**
+ * @author anantharaju
+ */
+package hwPackage;
+
+public class HelloWorld 
+{
+	public static void main(String[] args) 
+	{
+		
+		System.out.println("println statement - positions the cursor onto the next line after printing the desired text");
+		System.out.print("print statement   - leaves the cursor on the same line");
+	}
+}

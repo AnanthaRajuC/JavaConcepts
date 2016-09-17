@@ -1,0 +1,13 @@
+/**
+ * @author anantharaju
+ */
+package hwPackage;
+
+public class HelloWorld 
+{
+	public static void main(String[] args) 
+	{
+		System.out.print("print statement");
+		System.out.println("println statement");
+	}
+}

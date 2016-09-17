@@ -1,0 +1,44 @@
+/**
+ * @author anantharaju
+ * for loop is used to iterate a part of the program several times
+ */
+package flPackage;
+
+public class ForLoop 
+{
+	public static void main(String[] args) 
+	{
+		//Simple For Loop
+		for(int i=1;i<=10;i++)
+		{  
+	        System.out.println(i);  
+	    } 
+		System.out.println("\n");
+		
+		//For-each Loop - used to traverse array or collection in java
+		//It works on elements basis not index
+		int arr[] = {12,23,44,56,78};  
+		
+	    for(int i:arr)
+	    {  
+	        System.out.println(i);  
+	    }  
+	    System.out.println("\n");
+	    
+	    //Labeled For Loop - We can have name of each for loop
+	    //It is useful if we have nested for loop so that we can break/continue specific for loop
+	    aa:  
+	        for(int i=1;i<=3;i++)
+	        {  
+	            bb:  
+	                for(int j=1;j<=3;j++)
+	                {  
+	                    if(i==2&&j==2)
+	                    {  
+	                        break aa;  
+	                    }  
+	                    System.out.println(i+" "+j);  
+	                }  
+	        }  
+	}
+}

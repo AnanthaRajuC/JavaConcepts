@@ -47,7 +47,4 @@ public class MethodOverloading
 	{  
 		  System.out.println(a);  
 	}  
-	
-	//Method Overloading with Type-Promotion
-	
 }

@@ -21,7 +21,7 @@ public class MethodOverloading
 		
 		mo1.add(10.5, 10.5);
 		
-		System.out.println("\nmain() method invoked");  
+		System.out.println("main() method invoked");  
 		main(12345);  
 	}
 	

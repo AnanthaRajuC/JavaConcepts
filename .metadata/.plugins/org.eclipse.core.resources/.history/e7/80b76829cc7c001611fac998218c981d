@@ -1,8 +1,6 @@
 /**
  * @author anantharaju
  * If a class have multiple methods by same name but different parameters, it is known as Method Overloading.
- * NOTE: Method Overloaing is not possible by changing the return type of method
- * NOTE: method Overloading can be done on Main Method
  */
 package oopmoPackage;
 
@@ -20,9 +18,6 @@ public class MethodOverloading
 		mo1.add(n1, n2, n3);
 		
 		mo1.add(10.5, 10.5);
-		
-		System.out.println("\nmain() method invoked");  
-		main(12345);  
 	}
 	
 	//Method Overloading by changing the no. of arguments
@@ -41,10 +36,4 @@ public class MethodOverloading
 	{
 		System.out.println("\nSum of 2 (double): "+(n1+n2));
 	}
-	
-	//Main Method Overloading
-	public static void main(int a)
-	{  
-		  System.out.println(a);  
-	}  
 }

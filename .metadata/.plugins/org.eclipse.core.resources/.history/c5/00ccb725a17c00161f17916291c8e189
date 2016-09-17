@@ -1,0 +1,14 @@
+/**
+ * @author anantharaju
+ * The Java if statement is used to test the condition
+ */
+package ifsPackage;
+
+public class IfStatements 
+{
+	public static void main(String[] args) 
+	{
+		
+
+	}
+}

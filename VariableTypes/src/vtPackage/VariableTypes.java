@@ -7,6 +7,7 @@ package vtPackage;
 public class VariableTypes 
 {
 	int data=50;	//Instance variable - A variable that is declared inside the class but outside the method
+	                //Instance variable doesn't get memory at compile time.It gets memory at runtime when object(instance) is created.
 	
 	static int m=100;	//Static variable - A variable that is declared as static is called static variable. It cannot be local.
 	

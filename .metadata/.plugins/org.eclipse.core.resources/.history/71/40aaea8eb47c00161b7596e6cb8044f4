@@ -1,0 +1,13 @@
+/**
+ * @author anantharaju
+ */
+package oopocPackage;
+
+public class ObjectAndClass 
+{
+
+	public static void main(String[] args) 
+	{
+
+	}
+}
